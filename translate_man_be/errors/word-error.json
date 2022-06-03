@@ -1,0 +1,12 @@
+{
+    "errorList":{
+        "DbDoesNotRespond": {
+            "status": 400,
+            "message": "Database doesn't respond."
+        },
+        "wordDoesNotExist": {
+            "status": 500,
+            "message": "Database doesn't respond."
+        }
+    }
+}

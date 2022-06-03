@@ -1,0 +1,12 @@
+{
+    "errorList":{
+        "userDoesNotExist": {
+            "status": 401,
+            "message":"User does not exist."
+        },
+        "databaseError":{
+            "status": 500,
+            "message":"Cannot connect to database!"
+        }
+    }
+}

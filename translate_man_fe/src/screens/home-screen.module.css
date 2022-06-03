@@ -1,0 +1,10 @@
+.wordListWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.message{
+  width: 100%;
+  text-align: center;
+}

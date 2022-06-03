@@ -1,0 +1,32 @@
+.cardWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.cardWrapper > div {
+  width: 50%;
+  padding: 15px;
+  overflow-wrap: break-word;
+}
+
+.cardWrapper > div:nth-child(2){
+  border-left: 1px dotted rgb(136, 136, 136);
+}
+
+@media only screen and (max-width: 768px) {
+  .cardWrapper {
+    flex-direction: column;
+  }
+  .cardWrapper > div:nth-child(2){
+    border-top: 1px dotted rgb(136, 136, 136);
+    border-left: none;
+  }
+
+  .cardWrapper > div {
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+}

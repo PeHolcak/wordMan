@@ -1,0 +1,44 @@
+.formWrapper{
+    margin: 20px 25%;
+    width: 50%;
+}
+
+.formContainer{
+    padding: 6.5% 10%;
+    background-color: rgb(248,249,250);
+    border-radius:20pt;
+}
+
+.buttonWrapper{
+    display: flex;
+    margin-top: 5px;
+}
+
+.formButton{
+    margin: 3px;
+}
+
+.label{
+    margin-bottom: 2px !important;
+    margin-top: 8px;
+}
+
+.deleteImage{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+    .formWrapper {
+        margin: 15px 15%;
+        width: 70%;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .formWrapper {
+        margin: 10px 5%;
+        width: 90%;
+    }
+  }

@@ -1,0 +1,97 @@
+{
+  "routes":{
+    "login": "Login",
+    "register": "Register",
+    "home": "Home",
+    "profile": "Profile",
+    "about": "About"
+  },
+    "navbar": {
+      "routes":{
+        "home": "Home",
+        "about": "About"
+      },
+      "profileInfo":{
+        "profile": "Profile",
+        "requests": "Requests",
+        "logout": "Logout"
+      },
+      "nonLoggedRoutes":{
+        "login":"Login",
+        "register": "Register"
+      }
+    },
+    "profileScreen":{
+      "email": "Email:",
+      "phone": "Phone:",
+      "login": "Login:",
+      "userCreateData": "Added:",
+      "role": "Role:"
+    }, 
+    "loginScreen":{
+      "header": "Sign In",
+      "login": "Login:",
+      "loginPlaceholder":"Entry your login", 
+      "password": "Password:",
+      "passwordPlaceholder":"Entry your password", 
+      "submitButton": "Sign In",
+      "register": "Register",
+      "newStudent": "New Student or applicant for study?",
+      "fillIn": "and fill in the application",
+      "error": "Cannot log in",
+      "notAuthorizate": "You entry wrong password. Please check inputs ale try again."
+    },
+    "registerScreen":{
+      "header": "Sign Up",
+      "login": "Login:",
+      "loginPlaceholder":"Entry your login", 
+      "firstName": "First name:",
+      "firstNamePlaceholder":"Entry your first name", 
+      "lastName": "Last name:",
+      "lastNamePlaceholder":"Entry your last name", 
+      "phoneContact": "Phone contact:",
+      "phoneContactPlaceholder":"Entry your phone contact", 
+      "emailContact": "Email:",
+      "emailContactPlaceholder":"Entry your email", 
+      "profilePhoto": "Profile photo:",
+      "profilePhotoPlaceholder":"Entry your profile photo",
+      "password": "Password:",
+      "passwordPlaceholder":"Entry your password", 
+      "submitButton": "Sign In",
+      "clearButton": "Clear",
+      "inputValueError": "Value of input \"${inputName}\" have to be from ${min} to ${max} character length.",
+      "sendValueError": "Some inputs were fill wrongly. Please, check it, correct it and send again."
+    },
+    "footer":"UuWordMan - 2021 | Created by Unicorn university students",
+    "validationFaildeMessage": {
+      "generalError": "Input is not valid",
+      "telephone": "Telephone number must be in format: +XXX XXX XXX XXX, +X XXX XXX XXX, XXX XXX XXX",
+      "password": "The password has to have minimal ${min} characters and maximal ${max} characters. It has to contains upper and lower case letter.",
+      "stringMaxCondition": "The value has to have maximal ${max} characters and has not contain a numbers.",
+      "stringMinCondition": "The value has to have minimal ${min} characters and has not contain a numbers.",
+      "stringCondition": "The value has to contains a-z or A-Z and have not contains a numbers.",
+      "stringMinMaxCondition": "The value has to have minimal ${min} and maximal ${max} characters and has not contain a numbers.",
+      "emailCondition": "NThis is not valid email.",
+      "base64Size": "Maximum size is ${max}kb and minimal ${min}kb.",
+      "base64FileType": "only jpeg or png file types are supposed.",
+      "base64NotFilled": "Profile photo is required."
+    },
+    "addWordForm": {
+      "firstSideWord": "Word",
+      "secondSideWord": "Translated word",
+      "firstSideWordDescription": "Word definition",
+      "secondSideWordDescription": "Translated word definition",
+      "validationError": "Form is not valid",
+      "button": "Create",
+      "header": "Add Word"
+    },
+    "homeScreen": {
+      "loadError": "Failed to load",
+      "noData": "No data"
+    }, 
+    "wordCard": {
+      "showTranslate": "Show translate",
+      "showOriginal": "Show word",
+      "showDetail": "Show detail"
+    }
+  }

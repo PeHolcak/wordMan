@@ -1,0 +1,12 @@
+.imageLink{
+    cursor: pointer;
+}
+
+.navBarContainer{
+    margin: 0px !important;
+    max-width: 100% !important;
+}
+
+.select {
+    margin-right: 15px;
+}

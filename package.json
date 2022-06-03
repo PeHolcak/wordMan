@@ -1,0 +1,41 @@
+{
+  "name": "uun_project_team_repo_bpmi21wpt04",
+  "version": "1.0.0",
+  "description": "A school project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js",
+    "bckend": "nodemon server",
+    "frontend": "npm start --prefix translate_man_fe",
+    "dev": "concurrently \"npm run bckend\" \"npm run frontend\"",
+    "import-data": "node translate_man_be/seeder/seeder -i",
+    "delete-data": "node translate_man_be/seeder/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix translate_man_fe && npm run build --prefix translate_man_fe"
+  },
+  "author": "Petr Holčák",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.2",
+    "@mui/material": "^5.8.2",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.13.0",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

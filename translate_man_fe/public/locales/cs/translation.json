@@ -1,0 +1,97 @@
+{
+    "routes":{
+      "login": "Přihlášení",
+      "register": "Registrace",
+      "home": "Doma",
+      "profile": "Profil",
+      "about": "O škole"
+    },
+    "navbar": {
+      "routes":{
+        "home": "Domů",
+        "about": "O škole"
+      },
+      "profileInfo":{
+        "profile": "Profil",
+        "requests": "Požadavky",
+        "logout": "Odhlásit"
+      },
+      "nonLoggedRoutes":{
+        "login":"Přihlášení",
+        "register": "Registrace"
+      }
+    },
+    "profileScreen":{
+      "email": "Email:",
+      "phone": "Telefon:",
+      "login": "Login:",
+      "userCreateData": "Datum vytvoření:",
+      "role": "Role:"
+    }, 
+    "loginScreen":{
+      "header": "Přihlašte se",
+      "login": "Login:",
+      "loginPlaceholder":"Vložte login", 
+      "password": "Heslo:",
+      "passwordPlaceholder":"Vložte heslo", 
+      "submitButton": "Přihlásit",
+      "register": "Registrujte se",
+      "newStudent": "Jste novým studentem nebo žadatelem o studiu",
+      "fillIn": "a vyplňte přihlášku",
+      "error": "Nepovedlo se přihlásit",
+      "notAuthorizate": "Zadali jste špatné údaje. Prosím zkontrolujte login a heslo."
+    },
+    "registerScreen":{
+      "header": "Zaregistrujte se",
+      "login": "Login:",
+      "loginPlaceholder":"Vložte login", 
+      "firstName": "Jméno:",
+      "firstNamePlaceholder":"Vložte jméno", 
+      "lastName": "Přijmenní:",
+      "lastNamePlaceholder":"Vložte přijmenní", 
+      "phoneContact": "Telefon:",
+      "phoneContactPlaceholder":"Vložte telefonní kontakt", 
+      "emailContact": "Email:",
+      "emailContactPlaceholder":"Vložte email", 
+      "profilePhoto": "Profilový obrázek:",
+      "profilePhotoPlaceholder":"Vložte obrázek",
+      "password": "Heslo:",
+      "passwordPlaceholder":"Vložte heslo", 
+      "submitButton": "Registrovat",
+      "clearButton": "Vymazat formulář",
+      "inputValueError": "Hodnota pole \"${inputName}\" musí mít minimálně ${min} znaků a maximálně ${max} znaků",
+      "sendValueError": "Některé položky seznamu byla špatně vyplněna. Zkontrolujte je, případně opravte a odešlete znovu."
+    },
+    "footer":"UuwordMan - 2021 | Vytvořeno studenty Unicorn university",
+    "validationFaildeMessage": {
+      "generalError": "Input není validní",
+      "telephone": "Telefonní číslo musí být ve formátu: +XXX XXX XXX XXX, +X XXX XXX XXX, XXX XXX XXX",
+      "password": "Heslo musí být minimálně ${min} a maximálně ${max} znaků dlouhé. Musí obsahovat číslo, velká/malá písmena ",
+      "stringMaxCondition": "Hodnota musí být maximálně ${max} znaků dlouhá a nesmí obsahovat čísla.",
+      "stringMinCondition": "Hodnota musí být minimálně ${min} znaků dlouhá a nesmí obsahovat čísla.",
+      "stringCondition": "Hodnota musí být složená ze znaků a-z nebo A-Z a nesmí obsahovat čísla.",
+      "stringMinMaxCondition": "Hodnota musí být minimálně ${min} a maximálně ${max} znaků dlouhá a nesmí obsahovat čísla.",
+      "emailCondition": "Nejedná se o validní email.",
+      "base64Size": "Maximální velikost fotografie je ${max}kb a minimální ${min}kb.",
+      "base64FileType": "Jsou povoleny jen soubory jpeg a png.",
+      "base64NotFilled": "Profilové foto je povinné,"
+    },
+    "addWordForm": {
+      "firstSideWord": "Slovíčko",
+      "secondSideWord": "Překlad slovíčka",
+      "firstSideWordDescription": "Definice slovíčka",
+      "secondSideWordDescription": "Definice překladu slovíčka",
+      "validationError": "Formulář není validní",
+      "button": "Vytvořit",
+      "header": "Přidat slovo"
+    },
+    "homeScreen": {
+      "loadError": "Nepovedlo se načíst",
+      "noData": "Žádná data"
+    },
+    "wordCard": {
+      "showTranslate": "Ukázat překlad",
+      "showOriginal": "Ukázat slovíčko",
+      "showDetail": "Ukázat detail"
+    }
+  }

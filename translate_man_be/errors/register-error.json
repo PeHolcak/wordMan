@@ -1,0 +1,20 @@
+{
+    "errorList":{
+        "UserAlreadyExists": {
+            "status": 400,
+            "message": "User already exists."
+        },
+        "databaseError":{
+            "status": 500,
+            "message":"Cannot connect to database!"
+        },
+        "UserCreateError":{
+            "status": 500,
+            "message":"User was not create properly."
+        },
+        "UserFindDatabaseError":{
+            "status": 500,
+            "message":"There is error in database."
+        }
+    }
+}
